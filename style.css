@@ -35,6 +35,10 @@ h1 {
 	padding-top: 1.5rem;
 	text-align: center;
 }
+p {
+	text-align: center;
+	padding: 1rem;
+}
 .btn {
 	background-color: var(--fg);
 	border-radius: 0.25em;
@@ -59,6 +63,9 @@ h1 {
 	padding: 0 1.5em;
 	width: 100%;
 	max-width: 36em;
+	height: 80vh;
+  	display: grid;
+  
 }
 .timeline__arrow {
 	background-color: transparent;
@@ -185,3 +192,25 @@ h1 {
 		--primary: hsl(var(--hue),90%,70%);
 	}
 }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#wrapper {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+	/* styles here */
+  }
+  
+  /* Mobile devices (portrait, 625px and down) */
+  @media screen and (max-width: 625px) {
+	/* styles here */
+  }
+  
+  /* Tablet devices (portrait, 976px and down) */
+  @media screen and (max-width: 976px) {
+	/* styles here */
+  }
