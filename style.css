@@ -20,7 +20,7 @@ a {
 body,
 button {
 	color: var(--fg);
-	font: 1em/1.5 "IBM Plex Sans", sans-serif;
+	font: 1.5em/2 "IBM Plex Sans", sans-serif;
 }
 body {
 	background-color: var(--bg);
@@ -35,9 +35,13 @@ h1 {
 	padding-top: 1.5rem;
 	text-align: center;
 }
-p {
+.bio {
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
+	max-width: 70%;
 	text-align: center;
-	padding: 1rem;
 }
 .btn {
 	background-color: var(--fg);
@@ -62,7 +66,7 @@ p {
 	margin: auto;
 	padding: 0 1.5em;
 	width: 100%;
-	max-width: 36em;
+	max-width: 99vh;
 	height: 80vh;
   	display: grid;
   
@@ -105,7 +109,7 @@ p {
 	border-radius: 50%;
 	display: inline-block;
 	flex-shrink: 0;
-	margin: 0.625em 0;
+	margin: 1em 0;
 	margin-inline-end: 1em;
 	position: relative;
 	width: 0.75em;
@@ -124,7 +128,7 @@ p {
 	display: block;
 	position: absolute;
 	top: 1em;
-	left: 2.625em;
+	left: 3.765em;
 	width: 0.125em;
 	height: 100%;
 	transform: translateX(-50%);
@@ -150,7 +154,7 @@ p {
 .timeline__item-body-content {
 	background-color: hsl(var(--hue),10%,50%,0.2);
 	opacity: 0;
-	padding: 0.5em 0.75em;
+	padding: 1.5em;
 	visibility: hidden;
 	transition:
 		opacity var(--trans-dur) var(--trans-timing),
