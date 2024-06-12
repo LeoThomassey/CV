@@ -1,7 +1,7 @@
 # CV
 Curriculum Vitae
 
-a short presentation to find my job.
+A short presentation to find my job.
 
 https://leothomassey.github.io/CV/
 
